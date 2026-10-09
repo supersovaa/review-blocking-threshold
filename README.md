@@ -4,7 +4,7 @@ A lightweight review skill for deciding whether a finding should block acceptanc
 
 ## When to use
 
-Apply `review-blocking-threshold` while reviewing a deliverable and deciding which findings must block its acceptance or completion.
+Apply `review-blocking-threshold` when reviewing code, plans, documents, or other deliverables.
 
 ## Core principle
 
