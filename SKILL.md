@@ -1,11 +1,11 @@
 ---
 name: review-blocking-threshold
-description: Decide which findings in reviews of code, plans, documents, and other deliverables must block acceptance or completion based on concrete material consequences rather than optional wording refinements.
+description: Review code, plans, documents, and other deliverables using a material-impact threshold to distinguish blocking findings from optional refinements.
 ---
 
 # Review Blocking Threshold
 
-Use this skill when reviewing code, plans, documents, or other deliverables and deciding which findings must block acceptance or completion.
+Use this skill when reviewing code, plans, documents, or other deliverables.
 
 ## Establish the review contract
 
