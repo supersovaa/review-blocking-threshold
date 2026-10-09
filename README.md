@@ -1,6 +1,7 @@
 # review-blocking-threshold
 
 A lightweight review skill for deciding whether a finding should block acceptance or completion of code, plans, documents, or other deliverables.
+Designed for a single user working with an AI agent.
 
 ## When to use
 
