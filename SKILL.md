@@ -7,6 +7,8 @@ description: Review code, plans, documents, and other deliverables using a mater
 
 Use this skill when reviewing code, plans, documents, or other deliverables.
 
+This skill targets a single-user AI-agent review workflow.
+
 ## Establish the review contract
 
 Read the current deliverable's purpose, scope, and relevant authoritative requirements, design, and decisions before classifying a finding.
