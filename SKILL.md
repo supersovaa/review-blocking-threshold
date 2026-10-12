@@ -26,9 +26,7 @@ Classify a finding as blocking when the identified problem materially changes, o
 - the decision that the current work is complete; or
 - downstream work that relies on the deliverable's meaning or guarantees.
 
-A wording ambiguity is blocking when materially different interpretations could guide different actions, results, or completion judgments.
-When context determines one effective meaning and alternative wording would preserve the same behavior and decisions, treat the refinement as non-blocking.
-A merely conceivable alternative reading is not itself evidence of material impact.
+Judge differences in representation or interpretation by whether they materially change effective meaning, required behavior, decisions, or established guarantees.
 
 ## Ground blocking findings
 
