@@ -26,18 +26,14 @@ Classify a finding as blocking when the identified problem materially changes, o
 - the decision that the current work is complete; or
 - downstream work that relies on the deliverable's meaning or guarantees.
 
-Judge differences in representation or interpretation by whether they materially change effective meaning, required behavior, decisions, or established guarantees.
-
-Before requiring a distinction between cases, identify the governing meaning or use case that requires it and the boundary responsible for preserving it.
-Check whether the cases are interchangeable under that contract, whether exposing their differences would violate an established equivalence or information boundary, and whether any required distinction is already available where it is needed.
-Differences in internal identifiers, incidental ordering, representations, or hypothetical future uses do not by themselves justify a new distinction.
-Require a distinction in the current deliverable when its contract makes the difference material to behavior, decisions, interpretation, or established guarantees.
+Judge differences in representation or interpretation by whether the governing contract requires distinguishing them for effective meaning, behavior, decisions, or guarantees at the responsible boundary.
+Check whether a required distinction is already preserved where needed, or whether introducing it would violate established interchangeability or an information boundary.
+Internal identifiers, incidental ordering, and hypothetical future uses alone do not establish material impact.
 
 ## Ground blocking findings
 
-For each blocking finding, identify the affected current responsibility or settled contract, the concrete consequence, and the evidence connecting the problem to that consequence.
-Relate the consequence to the reviewed change and, where applicable, its governing plan.
-For a claimed failure path, identify a feasible sequence with contract-valid inputs or inputs covered by the required defense scope; separate reachable consequences from unsupported hypotheticals.
+For each blocking finding, identify the affected current responsibility or settled contract, the concrete consequence, and evidence connecting it to the reviewed change and, where applicable, its governing plan.
+For a claimed failure path, identify a feasible sequence with contract-valid inputs or inputs covered by the required defense scope.
 Classify improvements that do not meet the material-impact threshold as non-blocking suggestions or omit them from the review result.
 
 ## Responsibility boundary
