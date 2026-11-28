@@ -1,11 +1,11 @@
 ---
 name: review-blocking-threshold
-description: When reviewing code, plans, documents, or other deliverables, use material impact to distinguish blockers from optional refinements.
+description: Use when reviewing code, plans, documents, or other deliverables. Classify review findings by material impact.
 ---
 
 # Review Blocking Threshold
 
-In a single-user AI-agent review of code, plans, documents, or other deliverables, classify findings by their effect on the deliverable’s purpose.
+In a single-user AI-agent review, apply the material-impact threshold when deciding whether a finding blocks completion or belongs among optional refinements.
 
 ## Establish the review contract
 
